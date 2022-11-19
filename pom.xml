@@ -43,9 +43,9 @@
 
 		<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc14 -->
 		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc8</artifactId>
-			<version>18.5.0.0.0</version>
+  			<groupId>ojdbc14</groupId>
+    			<artifactId>ojdbc14</artifactId>
+    			<version>10.2.0.3.0</version>
 		</dependency>
 
 		<!--  	Make Sure Maven is installed in the machine like Download latest Maven .zip file website then 
