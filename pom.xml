@@ -41,11 +41,16 @@
 			<version>7.2.2.jre8</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc14 -->
+		<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc14 
 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc14</artifactId>
 			<version>10.2.0.4.0</version>
+		</dependency> -->
+		
+		<dependency>
+    			<groupId>com.oracle.ojdbc</groupId>
+    			<artifactId>ojdbc8</artifactId>
 		</dependency>
 
 		<!--  	Make Sure Maven is installed in the machine like Download latest Maven .zip file website then 
