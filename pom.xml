@@ -43,9 +43,9 @@
 
 		<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc14 -->
 		<dependency>
-  			<groupId>ojdbc14</groupId>
-    			<artifactId>ojdbc14</artifactId>
-    			<version>10.2.0.3.0</version>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>10.2.0.4.0</version>
 		</dependency>
 
 		<!--  	Make Sure Maven is installed in the machine like Download latest Maven .zip file website then 
@@ -56,7 +56,6 @@
 		MAVEN_HOME  -  C:\Program Files\Maven\apache-maven-3.8.6
 		In the Path Variables add - %MAVEN_HOME%\bin
 		Then Open Cmd and check mnv -v  or mvn -version or mvn hiphen-version to see if aven is installed properly 
-
 		Run the following command in Cmd with Admin Privilages.
      	mvn install:install-file -Dfile="C:/Users/RAMESH B/Desktop/ojdbc14-10.2.0.4.0.jar" 
 		-DgroupId=com.oracle -DartifactId=ojdbc14 -Dversion=10.2.0.4.0 -Dpackaging=jar    
