@@ -16,7 +16,7 @@ EMAIL_FROM = 'b.rams@yahoo.com'
         
         stage('ExecuteSonarQubeReport'){
             steps{
-                sh  "mvn clean sonar:sonar"
+                sh  "mvn clean deploy sonar:sonar"
             }
         }
        
