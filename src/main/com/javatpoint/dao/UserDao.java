@@ -1,9 +1,10 @@
 package main.com.javatpoint.dao;
+import main.com.javatpoint.bean.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.javatpoint.bean.User;
+//import com.javatpoint.bean.User;
 public class UserDao {
 public static Connection getConnection(){
 	Connection con=null;

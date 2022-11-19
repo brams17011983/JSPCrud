@@ -5,7 +5,7 @@
 <title>Edit Form</title>
 </head>
 <body>
-<%@page import="com.javatpoint.dao.UserDao,com.javatpoint.bean.User"%>
+<%@page import="main.com.javatpoint.dao.UserDao,main.com.javatpoint.bean.User"%>
 
 <%
 String id=request.getParameter("id");
