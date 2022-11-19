@@ -109,7 +109,7 @@
 	
 	<build>
 		<sourceDirectory>src</sourceDirectory>
-	<!--	<plugins>
+		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
@@ -118,12 +118,12 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-		</plugins>  -->
+		</plugins>
 		
 		
 		
 		
-		    <pluginManagement>
+		 <!--   <pluginManagement>
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -215,7 +215,7 @@
 	</plugin>
 	    
 	    
-    </plugins>
+    </plugins>-->
 		
 		
 		
