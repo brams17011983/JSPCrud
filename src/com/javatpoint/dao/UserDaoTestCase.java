@@ -1,17 +1,8 @@
 package com.javatpoint.dao;
-import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.Predicate;
-
-import com.javatpoint.bean.User;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
-
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.After;
+import static org.junit.Assert.*;
 class UserDaoTestCase {
 
 	@Test
