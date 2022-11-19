@@ -45,7 +45,7 @@
 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc8</artifactId>
-			<version>19.3.0.0</version>
+			<version>18.5.0.0.0</version>
 		</dependency>
 
 		<!--  	Make Sure Maven is installed in the machine like Download latest Maven .zip file website then 
