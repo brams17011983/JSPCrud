@@ -1,10 +1,10 @@
-package com.javatpoint.dao;
+package test.com.javatpoint.dao;
+import main.com.javatpoint.bean.User;
+import main.com.javatpoint.dao.UserDao;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
-
-import com.javatpoint.bean.User;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class UserDaoTestCase {
+class UserDaoTest {
 
 	@Test
 	void getRecordByIdTest() {
@@ -52,7 +52,7 @@ class UserDaoTestCase {
 	}
 	
 	
-	@Test
+	//@Test
 	void deleteTest() {
 		User user= new User();
 		user.setId(10);
@@ -66,7 +66,7 @@ class UserDaoTestCase {
 	}
 	
 
-	@Test
+	//@Test
 	void updateTest() {
 		
 		User user= new User();
@@ -84,7 +84,7 @@ class UserDaoTestCase {
 	}
 	
 
-	@Test
+	//@Test
 	void saveTest() {
 		
 		User user= new User();

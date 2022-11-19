@@ -1,4 +1,4 @@
-package com.javatpoint.bean;
+package main.com.javatpoint.bean;
 
 public class User {
 private int id;
