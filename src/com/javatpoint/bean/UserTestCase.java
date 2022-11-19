@@ -1,9 +1,8 @@
-package com.javatpoint.bean;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
-
+package com.javatpoint.dao;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.After;
+import static org.junit.Assert.*;
 class UserTestCase {
 
 	@Test
